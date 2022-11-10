@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    height:100vh; 
+}
+
+[class*="col-"] {
+    border: 1px solid white;
+    height: 2.5rem;
+    line-height: 2rem;
+    text-align: center; 
+    font-size: .8rem;
+    color:white;
+    background-color: #006CFA;
+}
+
+section{
+    margin-top: 1rem;
+}
+
+.nest {
+    background-color: #00E164;
+    border: 1px solid #006CFA;
+
+}
+
+.pad{
+    padding: 1rem;
+    height: auto;
+}
